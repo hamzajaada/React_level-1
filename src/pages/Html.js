@@ -1,8 +1,10 @@
-function App() {
-  return (
-    <>
+import React from 'react';
+
+const Html = () => {
+    return (
+        <>
       <header className="hide-when-mobile">
-        <h1>Courses 4 Arab</h1>
+        <h1>cou4.dev""</h1>
         <ul className="flex">
           <li className="main-list">
             <a className="main-link" href="www">
@@ -63,7 +65,7 @@ function App() {
 
 
       <header style={{ backgroundColor: "red" }} className="show-when-mobile">
-        <h1>Courses 4 Arab</h1>
+        <h1>cou4.dev""</h1>
         <label className="absolute" htmlFor="burger">
           <i className="fas fa-bars" />
         </label>
@@ -131,14 +133,14 @@ function App() {
         </div>
       </header>
       <main>
-       Home Page
+       HTML Page
       </main>
       <footer>
-        Designed and developed by Courses4Arab.com
+        DDDesigned and developed by Courses4Arab.com
         <span>🧡</span>
       </footer>
     </>
-  );
+    );
 }
 
-export default App;
+export default Html;
